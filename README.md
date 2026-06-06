@@ -18,26 +18,17 @@
 5. **안정적인 API Key Rotation & Fail-Fast**
    - 여러 개의 디코딩된 API Key를 풀(Pool)로 관리하여 트래픽 제한(HTTP 429 또는 일일 쿼터 초과) 감지 시 자동으로 다음 키로 교체합니다.
    - 단순 파라미터 에러나 권한 오류 발생 시에는 키를 불필요하게 낭비하지 않고 즉시 에러를 표출하고 멈추는 **Fail-Fast** 전략을 사용합니다.
-6. **NoSQL 데이터 적재 설계**
-   - 수집된 최종 데이터를 MongoDB 또는 AWS DynamoDB(Single-Table Design) 등의 다형성 도큐먼트 NoSQL에 이식하기 위한 효율적인 데이터 정규화 설계를 함께 포함합니다.
 
 ---
 
 ## 📂 프로젝트 디렉토리 구조 (Directory Structure)
 
+> [!NOTE]
+> 수집되는 원본 데이터, 캐시 데이터 및 대용량 결과 파일은 레포지토리 용량 관리와 보안을 위해 Git 추적에서 제외(`.gitignore`)되며, 로컬에서 실행 시 자동으로 생성됩니다.
+
 ```text
 tour-api-korea/
-├── data/
-│   ├── raw/
-│   │   ├── list_by_city/          # 도시별 1차 필터링 완료된 명소/축제 리스트
-│   │   ├── detail/                # 개별 명소 및 축제 상세정보 병합 JSON (3,815개)
-│   │   ├── visitor/               # API로부터 수집한 일별 원본 방문객 빅데이터
-│   │   └── final/                 # 방문객 통계가 포함된 도시별 최종 병합 JSON (40개)
-│   ├── detail/
-│   │   ├── attraction/            # 스크래핑된 관광지 상세 캐시 (도시별 그룹화)
-│   │   └── festival/              # 스크래핑된 축제 상세 캐시 (개별 contentid별)
-│   ├── visitor/
-│   │   └── monthly_visitor_averages.json # 40개 도시의 2025 월별/연간 일평균 통계 요약
+├── data/                          # (Git-Ignored를 제외한 기준정보 구성)
 │   ├── classification_dict.json   # 분류 코드 -> 테마 매핑 사전
 │   ├── ldong_sigungu.json         # 수집 대상 행정 표준 코드 목록
 │   ├── theme_mapping.json         # 테마 기준정보 정의
@@ -56,10 +47,8 @@ tour-api-korea/
 │   ├── scrape_details.py          # 공통 스크래퍼 모듈 및 예외처리 정의
 │   └── build_mapping_dict.py      # 분류 체계 구축 유틸리티
 │
-├── .env                           # API Key 설정 파일 (로컬)
-├── nosql_schema_design.md         # MongoDB 및 AWS DynamoDB 용 NoSQL 스키마 설계 문서
-├── PROGRESS.md                    # 프로젝트 전체 진행 상황 및 체크포인트 이력
-├── visit_bigdata_manual.pdf       # KTO 관광 빅데이터 API 매뉴얼
+├── .gitignore                     # Git 관리 제외 대상 정의 파일
+├── LICENSE                        # 오픈소스 라이선스
 └── README.md                      # 본 가이드 문서
 ```
 
@@ -74,7 +63,7 @@ pip install requests pandas openpyxl
 ```
 
 ### 2. `.env` 파일 구성
-프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 아래와 같이 인증키를 추가합니다. 
+프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 아래와 같이 인증키를 추가합니다. (이 파일은 `.gitignore`에 의해 커밋되지 않습니다.)
 ```env
 TOUR_API_KEYS=decoded_key_1,decoded_key_2,decoded_key_3
 ```
@@ -126,7 +115,7 @@ TOUR_API_KEYS=decoded_key_1,decoded_key_2,decoded_key_3
    ```bash
    python scripts/scrape_and_aggregate_visitor.py
    ```
-   * *글로벌 요약 데이터는 `data/visitor/monthly_visitor_averages.json` 경로에 추가 저장됩니다.*
+   * *이 과정에서 상세 로그 및 일별 수집 데이터는 `data/raw/visitor/` 경로에 로컬 저장되며, 가공 완료된 월별 일평균 통계의 통합본은 `data/visitor/monthly_visitor_averages.json`으로 저장됩니다.*
 
 ---
 
@@ -135,7 +124,3 @@ TOUR_API_KEYS=decoded_key_1,decoded_key_2,decoded_key_3
 ### 월별 일평균 방문객 계산의 타당성
 - 관광 빅데이터(이동통신 데이터 기반)는 고유 방문자 수의 성격상, 일별 방문객 수를 단순 합산할 경우 기간 내 중복 방문자가 누적 합산되는 문제가 발생합니다.
 - 이에 본 파이프라인은 기간을 1달 단위(`startYmd`/`endYmd`를 동일 월 내의 시작일과 종료일로 설정)로 끊어서 데이터를 받아오고, 각 월의 일수(28~31일)로 나눈 **월별 일평균 방문객 수(Monthly Daily Average)**를 최종 지표로 채택하여 데이터 정밀도를 극대화했습니다.
-
-### NoSQL 스키마 다형성 설계
-- TourAPI의 상세 소개 정보는 `contenttypeid`에 따라 컬럼 구조가 상이합니다.
-- 이에 유연한 정규화를 위해 공통(Common) 메타데이터와 콘텐츠 타입별 소개(Intro) 스키마를 분리 설계하였으며, 자세한 세부 명세는 [nosql_schema_design.md](file:///d:/skn_aicamp/5th_final_project/tour-api-korea/nosql_schema_design.md)에서 확인하실 수 있습니다.
