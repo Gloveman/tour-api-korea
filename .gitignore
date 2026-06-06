@@ -76,3 +76,9 @@ data/detail/
 data/raw/detail/
 data/raw/list_by_city/
 data/raw/visitor/
+
+# Manuals and reference documents
+*.pdf
+*.xlsx
+*.docx
+
