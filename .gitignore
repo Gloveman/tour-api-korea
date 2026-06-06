@@ -82,3 +82,8 @@ data/raw/visitor/
 *.xlsx
 *.docx
 
+# Processed outputs
+data/raw/final/
+data/visitor/
+
+
