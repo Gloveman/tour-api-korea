@@ -1,0 +1,674 @@
+{
+  "NA040600": {
+    "code": "NA040600",
+    "name": "자연휴양림",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "온천·휴양",
+    "type": "Attraction"
+  },
+  "NA020700": {
+    "code": "NA020700",
+    "name": "항구/포구",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "바다·해안",
+    "type": "Attraction"
+  },
+  "NA020800": {
+    "code": "NA020800",
+    "name": "해안절경",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "바다·해안",
+    "type": "Attraction"
+  },
+  "NA020900": {
+    "code": "NA020900",
+    "name": "해변. 해수욕장",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "바다·해안",
+    "type": "Attraction"
+  },
+  "VE010800": {
+    "code": "VE010800",
+    "name": "등대",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "바다·해안",
+    "type": "Attraction"
+  },
+  "HS010100": {
+    "code": "HS010100",
+    "name": "고궁",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010200": {
+    "code": "HS010200",
+    "name": "성ㆍ산성ㆍ성곽",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010300": {
+    "code": "HS010300",
+    "name": "문",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010400": {
+    "code": "HS010400",
+    "name": "고택",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010500": {
+    "code": "HS010500",
+    "name": "생가",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010600": {
+    "code": "HS010600",
+    "name": "민속마을",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010700": {
+    "code": "HS010700",
+    "name": "사적지",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010800": {
+    "code": "HS010800",
+    "name": "고분, 능",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS010900": {
+    "code": "HS010900",
+    "name": "사당",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS011000": {
+    "code": "HS011000",
+    "name": "선사유적지",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS011100": {
+    "code": "HS011100",
+    "name": "근대건축물",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS011200": {
+    "code": "HS011200",
+    "name": "기타역사유적지",
+    "middle_category": "역사유적지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS020100": {
+    "code": "HS020100",
+    "name": "탑ㆍ비석ㆍ기념탑",
+    "middle_category": "역사유물",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS020200": {
+    "code": "HS020200",
+    "name": "선사유물",
+    "middle_category": "역사유물",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS020300": {
+    "code": "HS020300",
+    "name": "불상",
+    "middle_category": "역사유물",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS020400": {
+    "code": "HS020400",
+    "name": "기타역사유물",
+    "middle_category": "역사유물",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS030100": {
+    "code": "HS030100",
+    "name": "불교",
+    "middle_category": "종교성지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS030200": {
+    "code": "HS030200",
+    "name": "기독교",
+    "middle_category": "종교성지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS030300": {
+    "code": "HS030300",
+    "name": "이슬람",
+    "middle_category": "종교성지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS040100": {
+    "code": "HS040100",
+    "name": "안보유적지",
+    "middle_category": "안보관광지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "HS040200": {
+    "code": "HS040200",
+    "name": "안보관광시설",
+    "middle_category": "안보관광지",
+    "large_category": "역사관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "VE070100": {
+    "code": "VE070100",
+    "name": "박물관",
+    "middle_category": "전시시설",
+    "large_category": "문화관광",
+    "theme": "역사·전통",
+    "type": "Attraction"
+  },
+  "FD010100": {
+    "code": "FD010100",
+    "name": "관광식당",
+    "middle_category": "한식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD010200": {
+    "code": "FD010200",
+    "name": "모범음식점",
+    "middle_category": "한식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD020100": {
+    "code": "FD020100",
+    "name": "중식",
+    "middle_category": "외국식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD020200": {
+    "code": "FD020200",
+    "name": "일식",
+    "middle_category": "외국식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD020300": {
+    "code": "FD020300",
+    "name": "서양식",
+    "middle_category": "외국식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD020400": {
+    "code": "FD020400",
+    "name": "기타외국식",
+    "middle_category": "외국식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD020500": {
+    "code": "FD020500",
+    "name": "퓨전음식",
+    "middle_category": "외국식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD030100": {
+    "code": "FD030100",
+    "name": "제과",
+    "middle_category": "간이음식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD030200": {
+    "code": "FD030200",
+    "name": "피자, 햄버거, 샌드위치 및 유사음식",
+    "middle_category": "간이음식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD030300": {
+    "code": "FD030300",
+    "name": "치킨",
+    "middle_category": "간이음식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD030400": {
+    "code": "FD030400",
+    "name": "김밥 분식",
+    "middle_category": "간이음식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD030500": {
+    "code": "FD030500",
+    "name": "이동음식",
+    "middle_category": "간이음식",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD040100": {
+    "code": "FD040100",
+    "name": "바/펍",
+    "middle_category": "주점",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD040200": {
+    "code": "FD040200",
+    "name": "생맥주전문점",
+    "middle_category": "주점",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD040400": {
+    "code": "FD040400",
+    "name": "전통주/민속주점",
+    "middle_category": "주점",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD050100": {
+    "code": "FD050100",
+    "name": "카페",
+    "middle_category": "카페/ 찻집",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD050200": {
+    "code": "FD050200",
+    "name": "찻집",
+    "middle_category": "카페/ 찻집",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "FD050300": {
+    "code": "FD050300",
+    "name": "기타음료점",
+    "middle_category": "카페/ 찻집",
+    "large_category": "음식",
+    "theme": "미식·노포",
+    "type": "Attraction"
+  },
+  "NA010100": {
+    "code": "NA010100",
+    "name": "산, 고개, 오름, 봉우리",
+    "middle_category": "자연경관(산)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA010200": {
+    "code": "NA010200",
+    "name": "숲",
+    "middle_category": "자연경관(산)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA010300": {
+    "code": "NA010300",
+    "name": "폭포",
+    "middle_category": "자연경관(산)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA010400": {
+    "code": "NA010400",
+    "name": "계곡",
+    "middle_category": "자연경관(산)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA020100": {
+    "code": "NA020100",
+    "name": "강",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA020200": {
+    "code": "NA020200",
+    "name": "호수",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA020300": {
+    "code": "NA020300",
+    "name": "저수지",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA020400": {
+    "code": "NA020400",
+    "name": "연못·늪",
+    "middle_category": "자연경관(하천‧해양)",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA030100": {
+    "code": "NA030100",
+    "name": "동굴",
+    "middle_category": "자연생태",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA030200": {
+    "code": "NA030200",
+    "name": "희귀동.식물",
+    "middle_category": "자연생태",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA030300": {
+    "code": "NA030300",
+    "name": "기암괴석",
+    "middle_category": "자연생태",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA030400": {
+    "code": "NA030400",
+    "name": "생태습지",
+    "middle_category": "자연생태",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA030500": {
+    "code": "NA030500",
+    "name": "기타자연생태",
+    "middle_category": "자연생태",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040100": {
+    "code": "NA040100",
+    "name": "국립공원",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040200": {
+    "code": "NA040200",
+    "name": "도립공원",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040300": {
+    "code": "NA040300",
+    "name": "군립공원",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040400": {
+    "code": "NA040400",
+    "name": "지질공원",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040500": {
+    "code": "NA040500",
+    "name": "생태관광지",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA040700": {
+    "code": "NA040700",
+    "name": "수목원ㆍ정원",
+    "middle_category": "자연공원",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "NA050100": {
+    "code": "NA050100",
+    "name": "기타자연관광",
+    "middle_category": "기타자연관광",
+    "large_category": "자연관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "VE030100": {
+    "code": "VE030100",
+    "name": "시민공원",
+    "middle_category": "도시공원",
+    "large_category": "문화관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "VE040300": {
+    "code": "VE040300",
+    "name": "둘레길",
+    "middle_category": "도시.지역문화관광",
+    "large_category": "문화관광",
+    "theme": "자연·트레킹",
+    "type": "Attraction"
+  },
+  "VE010100": {
+    "code": "VE010100",
+    "name": "건물",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010200": {
+    "code": "VE010200",
+    "name": "타워 / 전망대",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010300": {
+    "code": "VE010300",
+    "name": "다리 / 대교",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010400": {
+    "code": "VE010400",
+    "name": "분수",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010500": {
+    "code": "VE010500",
+    "name": "동상",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010600": {
+    "code": "VE010600",
+    "name": "터널",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010700": {
+    "code": "VE010700",
+    "name": "댐",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE010900": {
+    "code": "VE010900",
+    "name": "기타 건축/조형물",
+    "middle_category": "랜드마크관광",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE020500": {
+    "code": "VE020500",
+    "name": "천문대",
+    "middle_category": "테마공원",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE070600": {
+    "code": "VE070600",
+    "name": "미술관/화랑",
+    "middle_category": "전시시설",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "VE080600": {
+    "code": "VE080600",
+    "name": "연회장",
+    "middle_category": "행사시설",
+    "large_category": "문화관광",
+    "theme": "예술·감성",
+    "type": "Attraction"
+  },
+  "EV010400": {
+    "code": "EV010400",
+    "name": "전통역사축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "역사·전통",
+    "type": "Festival"
+  },
+  "EV010300": {
+    "code": "EV010300",
+    "name": "지역특산물축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "미식·노포",
+    "type": "Festival"
+  },
+  "EV010500": {
+    "code": "EV010500",
+    "name": "생태자연축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "자연·트레킹",
+    "type": "Festival"
+  },
+  "EV010100": {
+    "code": "EV010100",
+    "name": "문화관광축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "예술·감성",
+    "type": "Festival"
+  },
+  "EV010200": {
+    "code": "EV010200",
+    "name": "문화예술축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "예술·감성",
+    "type": "Festival"
+  },
+  "EV010600": {
+    "code": "EV010600",
+    "name": "기타축제",
+    "middle_category": "축제",
+    "large_category": "축제/공연/행사",
+    "theme": "예술·감성",
+    "type": "Festival"
+  }
+}

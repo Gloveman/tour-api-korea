@@ -1,0 +1,153 @@
+{
+  "역사·전통": [
+    {
+      "code": "EV010400",
+      "name": "전통역사축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    }
+  ],
+  "미식·노포": [
+    {
+      "code": "EV010300",
+      "name": "지역특산물축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    }
+  ],
+  "자연·트레킹": [
+    {
+      "code": "EV010500",
+      "name": "생태자연축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    }
+  ],
+  "예술·감성": [
+    {
+      "code": "EV010100",
+      "name": "문화관광축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV010200",
+      "name": "문화예술축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV010600",
+      "name": "기타축제",
+      "middle_category": "축제",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    }
+  ],
+  "테마 없음": [],
+  "제외": [
+    {
+      "code": "EV020100",
+      "name": "전통공연",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020200",
+      "name": "연극",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020300",
+      "name": "뮤지컬",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020400",
+      "name": "오페라",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020500",
+      "name": "무용",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020600",
+      "name": "클래식음악회",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020700",
+      "name": "대중콘서트",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020800",
+      "name": "영화",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV020900",
+      "name": "기타공연",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV021000",
+      "name": "넌버벌",
+      "middle_category": "공연",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV030100",
+      "name": "전시회",
+      "middle_category": "행사",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV030200",
+      "name": "박람회",
+      "middle_category": "행사",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV030300",
+      "name": "스포츠경기",
+      "middle_category": "행사",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    },
+    {
+      "code": "EV030400",
+      "name": "기타행사",
+      "middle_category": "행사",
+      "large_category": "축제/공연/행사",
+      "contentTypeId": "15"
+    }
+  ]
+}

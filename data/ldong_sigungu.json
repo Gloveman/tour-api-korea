@@ -1,0 +1,296 @@
+[
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "110",
+    "lDongSignguNm": "춘천시",
+    "rnum": 1
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "130",
+    "lDongSignguNm": "원주시",
+    "rnum": 2
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "150",
+    "lDongSignguNm": "강릉시",
+    "rnum": 3
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "170",
+    "lDongSignguNm": "동해시",
+    "rnum": 4
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "190",
+    "lDongSignguNm": "태백시",
+    "rnum": 5
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "210",
+    "lDongSignguNm": "속초시",
+    "rnum": 6
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "230",
+    "lDongSignguNm": "삼척시",
+    "rnum": 7
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "720",
+    "lDongSignguNm": "홍천군",
+    "rnum": 8
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "730",
+    "lDongSignguNm": "횡성군",
+    "rnum": 9
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "750",
+    "lDongSignguNm": "영월군",
+    "rnum": 10
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "760",
+    "lDongSignguNm": "평창군",
+    "rnum": 11
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "770",
+    "lDongSignguNm": "정선군",
+    "rnum": 12
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "780",
+    "lDongSignguNm": "철원군",
+    "rnum": 13
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "790",
+    "lDongSignguNm": "화천군",
+    "rnum": 14
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "800",
+    "lDongSignguNm": "양구군",
+    "rnum": 15
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "810",
+    "lDongSignguNm": "인제군",
+    "rnum": 16
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "820",
+    "lDongSignguNm": "고성군",
+    "rnum": 17
+  },
+  {
+    "lDongRegnCd": "51",
+    "lDongRegnNm": "강원특별자치도",
+    "lDongSignguCd": "830",
+    "lDongSignguNm": "양양군",
+    "rnum": 18
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "110",
+    "lDongSignguNm": "포항시",
+    "rnum": 1
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "111",
+    "lDongSignguNm": "포항시 남구",
+    "rnum": 2
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "113",
+    "lDongSignguNm": "포항시 북구",
+    "rnum": 3
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "130",
+    "lDongSignguNm": "경주시",
+    "rnum": 4
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "150",
+    "lDongSignguNm": "김천시",
+    "rnum": 5
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "170",
+    "lDongSignguNm": "안동시",
+    "rnum": 6
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "190",
+    "lDongSignguNm": "구미시",
+    "rnum": 7
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "210",
+    "lDongSignguNm": "영주시",
+    "rnum": 8
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "230",
+    "lDongSignguNm": "영천시",
+    "rnum": 9
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "250",
+    "lDongSignguNm": "상주시",
+    "rnum": 10
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "280",
+    "lDongSignguNm": "문경시",
+    "rnum": 11
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "290",
+    "lDongSignguNm": "경산시",
+    "rnum": 12
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "730",
+    "lDongSignguNm": "의성군",
+    "rnum": 13
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "750",
+    "lDongSignguNm": "청송군",
+    "rnum": 14
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "760",
+    "lDongSignguNm": "영양군",
+    "rnum": 15
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "770",
+    "lDongSignguNm": "영덕군",
+    "rnum": 16
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "820",
+    "lDongSignguNm": "청도군",
+    "rnum": 17
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "830",
+    "lDongSignguNm": "고령군",
+    "rnum": 18
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "840",
+    "lDongSignguNm": "성주군",
+    "rnum": 19
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "850",
+    "lDongSignguNm": "칠곡군",
+    "rnum": 20
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "900",
+    "lDongSignguNm": "예천군",
+    "rnum": 21
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "920",
+    "lDongSignguNm": "봉화군",
+    "rnum": 22
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "930",
+    "lDongSignguNm": "울진군",
+    "rnum": 23
+  },
+  {
+    "lDongRegnCd": "47",
+    "lDongRegnNm": "경상북도",
+    "lDongSignguCd": "940",
+    "lDongSignguNm": "울릉군",
+    "rnum": 24
+  }
+]
